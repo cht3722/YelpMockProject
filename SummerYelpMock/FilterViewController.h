@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  FilterViewController.h
 //  SummerYelpMock
 //
-//  Created by Haotian Chen on 2017/8/26.
+//  Created by Haotian Chen on 2017/9/12.
 //  Copyright © 2017年 Haotian Chen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FilterViewController : UIViewController
 
 @end
-

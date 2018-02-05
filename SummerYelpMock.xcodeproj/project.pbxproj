@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60215871F56633A0008DEB1 /* YelpTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D60215851F56633A0008DEB1 /* YelpTableViewCell.m */; };
+		D60215881F56633A0008DEB1 /* YelpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60215861F56633A0008DEB1 /* YelpTableViewCell.xib */; };
+		D61AC7C81F5F8F38009A2D35 /* DetailYelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AC7C71F5F8F38009A2D35 /* DetailYelpViewController.m */; };
+		D61AC7CC1F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AC7CA1F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.m */; };
+		D61AC7CD1F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D61AC7CB1F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.xib */; };
+		D61AC7D11F5FA11E009A2D35 /* MapTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AC7CF1F5FA11E009A2D35 /* MapTableViewCell.m */; };
+		D61AC7D21F5FA11E009A2D35 /* MapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D61AC7D01F5FA11E009A2D35 /* MapTableViewCell.xib */; };
+		D66B5AFC1F68D69B0084C85E /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66B5AFB1F68D69B0084C85E /* FilterViewController.m */; };
+		D66B5B001F68D7700084C85E /* FilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D66B5AFE1F68D7700084C85E /* FilterTableViewCell.m */; };
+		D66B5B011F68D7700084C85E /* FilterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66B5AFF1F68D7700084C85E /* FilterTableViewCell.xib */; };
+		D66B5B051F68D8270084C85E /* PriceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D66B5B031F68D8270084C85E /* PriceTableViewCell.m */; };
+		D66B5B061F68D8270084C85E /* PriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66B5B041F68D8270084C85E /* PriceTableViewCell.xib */; };
+		D66B5B091F68D91F0084C85E /* YelpFilterDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D66B5B081F68D91F0084C85E /* YelpFilterDataModel.m */; };
 		D677F74D1F521B4B005AE6B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D677F74C1F521B4B005AE6B0 /* main.m */; };
 		D677F7501F521B4B005AE6B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D677F74F1F521B4B005AE6B0 /* AppDelegate.m */; };
-		D677F7531F521B4B005AE6B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D677F7521F521B4B005AE6B0 /* ViewController.m */; };
-		D677F7561F521B4B005AE6B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D677F7541F521B4B005AE6B0 /* Main.storyboard */; };
+		D677F7531F521B4B005AE6B0 /* YelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D677F7521F521B4B005AE6B0 /* YelpViewController.m */; };
 		D677F7581F521B4B005AE6B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D677F7571F521B4B005AE6B0 /* Assets.xcassets */; };
 		D677F75B1F521B4B005AE6B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D677F7591F521B4B005AE6B0 /* LaunchScreen.storyboard */; };
 		D677F7661F521B4B005AE6B0 /* SummerYelpMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D677F7651F521B4B005AE6B0 /* SummerYelpMockTests.m */; };
 		D677F7711F521B4B005AE6B0 /* SummerYelpMockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D677F7701F521B4B005AE6B0 /* SummerYelpMockUITests.m */; };
+		D677F7811F521BC4005AE6B0 /* YelpNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D677F7801F521BC4005AE6B0 /* YelpNetworking.m */; };
+		D677F7881F5230DD005AE6B0 /* YelpDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D677F7871F5230DD005AE6B0 /* YelpDataModel.m */; };
+		D698A42C1F5B57BD00ED3524 /* YelpDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D698A42B1F5B57BD00ED3524 /* YelpDataStore.m */; };
+		D698A4301F5B59E600ED3524 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D698A42F1F5B59E600ED3524 /* MapViewController.m */; };
+		D698A4341F5B5F9900ED3524 /* YelpAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D698A4331F5B5F9900ED3524 /* YelpAnnotation.m */; };
+		F07747B6E0AE9A6B23C13771 /* libPods-SummerYelpMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4128E56ACAC5C8318773E2 /* libPods-SummerYelpMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +53,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7246240DA0FA99BACA63CDDC /* Pods-SummerYelpMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummerYelpMock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SummerYelpMock/Pods-SummerYelpMock.debug.xcconfig"; sourceTree = "<group>"; };
+		BF4A19AE5D84E3174DACAB82 /* Pods-SummerYelpMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummerYelpMock.release.xcconfig"; path = "Pods/Target Support Files/Pods-SummerYelpMock/Pods-SummerYelpMock.release.xcconfig"; sourceTree = "<group>"; };
+		CC4128E56ACAC5C8318773E2 /* libPods-SummerYelpMock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SummerYelpMock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60215841F56633A0008DEB1 /* YelpTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpTableViewCell.h; sourceTree = "<group>"; };
+		D60215851F56633A0008DEB1 /* YelpTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpTableViewCell.m; sourceTree = "<group>"; };
+		D60215861F56633A0008DEB1 /* YelpTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YelpTableViewCell.xib; sourceTree = "<group>"; };
+		D61AC7C61F5F8F38009A2D35 /* DetailYelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailYelpViewController.h; sourceTree = "<group>"; };
+		D61AC7C71F5F8F38009A2D35 /* DetailYelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailYelpViewController.m; sourceTree = "<group>"; };
+		D61AC7C91F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewHeaderTableViewCell.h; sourceTree = "<group>"; };
+		D61AC7CA1F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewHeaderTableViewCell.m; sourceTree = "<group>"; };
+		D61AC7CB1F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		D61AC7CE1F5FA11E009A2D35 /* MapTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTableViewCell.h; sourceTree = "<group>"; };
+		D61AC7CF1F5FA11E009A2D35 /* MapTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTableViewCell.m; sourceTree = "<group>"; };
+		D61AC7D01F5FA11E009A2D35 /* MapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapTableViewCell.xib; sourceTree = "<group>"; };
+		D66B5AFA1F68D69B0084C85E /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		D66B5AFB1F68D69B0084C85E /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		D66B5AFD1F68D7700084C85E /* FilterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterTableViewCell.h; sourceTree = "<group>"; };
+		D66B5AFE1F68D7700084C85E /* FilterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterTableViewCell.m; sourceTree = "<group>"; };
+		D66B5AFF1F68D7700084C85E /* FilterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterTableViewCell.xib; sourceTree = "<group>"; };
+		D66B5B021F68D8270084C85E /* PriceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceTableViewCell.h; sourceTree = "<group>"; };
+		D66B5B031F68D8270084C85E /* PriceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceTableViewCell.m; sourceTree = "<group>"; };
+		D66B5B041F68D8270084C85E /* PriceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PriceTableViewCell.xib; sourceTree = "<group>"; };
+		D66B5B071F68D91F0084C85E /* YelpFilterDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpFilterDataModel.h; sourceTree = "<group>"; };
+		D66B5B081F68D91F0084C85E /* YelpFilterDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpFilterDataModel.m; sourceTree = "<group>"; };
 		D677F7481F521B4B005AE6B0 /* SummerYelpMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerYelpMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D677F74C1F521B4B005AE6B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D677F74E1F521B4B005AE6B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D677F74F1F521B4B005AE6B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D677F7511F521B4B005AE6B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D677F7521F521B4B005AE6B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D677F7551F521B4B005AE6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D677F7511F521B4B005AE6B0 /* YelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YelpViewController.h; sourceTree = "<group>"; };
+		D677F7521F521B4B005AE6B0 /* YelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YelpViewController.m; sourceTree = "<group>"; };
 		D677F7571F521B4B005AE6B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D677F75A1F521B4B005AE6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D677F75C1F521B4B005AE6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +92,16 @@
 		D677F76C1F521B4B005AE6B0 /* SummerYelpMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerYelpMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D677F7701F521B4B005AE6B0 /* SummerYelpMockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerYelpMockUITests.m; sourceTree = "<group>"; };
 		D677F7721F521B4B005AE6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D677F77F1F521BC4005AE6B0 /* YelpNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpNetworking.h; sourceTree = "<group>"; };
+		D677F7801F521BC4005AE6B0 /* YelpNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpNetworking.m; sourceTree = "<group>"; };
+		D677F7861F5230DD005AE6B0 /* YelpDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpDataModel.h; sourceTree = "<group>"; };
+		D677F7871F5230DD005AE6B0 /* YelpDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpDataModel.m; sourceTree = "<group>"; };
+		D698A42A1F5B57BD00ED3524 /* YelpDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpDataStore.h; sourceTree = "<group>"; };
+		D698A42B1F5B57BD00ED3524 /* YelpDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpDataStore.m; sourceTree = "<group>"; };
+		D698A42E1F5B59E600ED3524 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D698A42F1F5B59E600ED3524 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		D698A4321F5B5F9900ED3524 /* YelpAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpAnnotation.h; sourceTree = "<group>"; };
+		D698A4331F5B5F9900ED3524 /* YelpAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07747B6E0AE9A6B23C13771 /* libPods-SummerYelpMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +130,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D60215831F5663080008DEB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D60215841F56633A0008DEB1 /* YelpTableViewCell.h */,
+				D60215851F56633A0008DEB1 /* YelpTableViewCell.m */,
+				D60215861F56633A0008DEB1 /* YelpTableViewCell.xib */,
+				D61AC7C91F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.h */,
+				D61AC7CA1F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.m */,
+				D61AC7CB1F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.xib */,
+				D61AC7CE1F5FA11E009A2D35 /* MapTableViewCell.h */,
+				D61AC7CF1F5FA11E009A2D35 /* MapTableViewCell.m */,
+				D61AC7D01F5FA11E009A2D35 /* MapTableViewCell.xib */,
+				D66B5AFD1F68D7700084C85E /* FilterTableViewCell.h */,
+				D66B5AFE1F68D7700084C85E /* FilterTableViewCell.m */,
+				D66B5AFF1F68D7700084C85E /* FilterTableViewCell.xib */,
+				D66B5B021F68D8270084C85E /* PriceTableViewCell.h */,
+				D66B5B031F68D8270084C85E /* PriceTableViewCell.m */,
+				D66B5B041F68D8270084C85E /* PriceTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		D677F73F1F521B4B005AE6B0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +159,8 @@
 				D677F7641F521B4B005AE6B0 /* SummerYelpMockTests */,
 				D677F76F1F521B4B005AE6B0 /* SummerYelpMockUITests */,
 				D677F7491F521B4B005AE6B0 /* Products */,
+				FDBCD0BEC6FF14BEC7A04E23 /* Pods */,
+				FCE9A146CF571CF5AC91BECE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +177,13 @@
 		D677F74A1F521B4B005AE6B0 /* SummerYelpMock */ = {
 			isa = PBXGroup;
 			children = (
+				D698A42D1F5B59A900ED3524 /* ViewController */,
+				D698A4291F5B579C00ED3524 /* DataStore */,
+				D60215831F5663080008DEB1 /* View */,
+				D677F7821F522FE4005AE6B0 /* DataModel */,
+				D677F77E1F521B86005AE6B0 /* Networking */,
 				D677F74E1F521B4B005AE6B0 /* AppDelegate.h */,
 				D677F74F1F521B4B005AE6B0 /* AppDelegate.m */,
-				D677F7511F521B4B005AE6B0 /* ViewController.h */,
-				D677F7521F521B4B005AE6B0 /* ViewController.m */,
-				D677F7541F521B4B005AE6B0 /* Main.storyboard */,
 				D677F7571F521B4B005AE6B0 /* Assets.xcassets */,
 				D677F7591F521B4B005AE6B0 /* LaunchScreen.storyboard */,
 				D677F75C1F521B4B005AE6B0 /* Info.plist */,
@@ -140,6 +218,69 @@
 			path = SummerYelpMockUITests;
 			sourceTree = "<group>";
 		};
+		D677F77E1F521B86005AE6B0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D677F77F1F521BC4005AE6B0 /* YelpNetworking.h */,
+				D677F7801F521BC4005AE6B0 /* YelpNetworking.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		D677F7821F522FE4005AE6B0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D677F7861F5230DD005AE6B0 /* YelpDataModel.h */,
+				D677F7871F5230DD005AE6B0 /* YelpDataModel.m */,
+				D698A4321F5B5F9900ED3524 /* YelpAnnotation.h */,
+				D698A4331F5B5F9900ED3524 /* YelpAnnotation.m */,
+				D66B5B071F68D91F0084C85E /* YelpFilterDataModel.h */,
+				D66B5B081F68D91F0084C85E /* YelpFilterDataModel.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		D698A4291F5B579C00ED3524 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				D698A42A1F5B57BD00ED3524 /* YelpDataStore.h */,
+				D698A42B1F5B57BD00ED3524 /* YelpDataStore.m */,
+			);
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		D698A42D1F5B59A900ED3524 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D677F7511F521B4B005AE6B0 /* YelpViewController.h */,
+				D677F7521F521B4B005AE6B0 /* YelpViewController.m */,
+				D698A42E1F5B59E600ED3524 /* MapViewController.h */,
+				D698A42F1F5B59E600ED3524 /* MapViewController.m */,
+				D61AC7C61F5F8F38009A2D35 /* DetailYelpViewController.h */,
+				D61AC7C71F5F8F38009A2D35 /* DetailYelpViewController.m */,
+				D66B5AFA1F68D69B0084C85E /* FilterViewController.h */,
+				D66B5AFB1F68D69B0084C85E /* FilterViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FCE9A146CF571CF5AC91BECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4128E56ACAC5C8318773E2 /* libPods-SummerYelpMock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDBCD0BEC6FF14BEC7A04E23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7246240DA0FA99BACA63CDDC /* Pods-SummerYelpMock.debug.xcconfig */,
+				BF4A19AE5D84E3174DACAB82 /* Pods-SummerYelpMock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D677F7751F521B4B005AE6B0 /* Build configuration list for PBXNativeTarget "SummerYelpMock" */;
 			buildPhases = (
+				86DBB95ABDB4BF1E75474380 /* [CP] Check Pods Manifest.lock */,
 				D677F7441F521B4B005AE6B0 /* Sources */,
 				D677F7451F521B4B005AE6B0 /* Frameworks */,
 				D677F7461F521B4B005AE6B0 /* Resources */,
+				D0A01781868FE168DE535D31 /* [CP] Embed Pods Frameworks */,
+				FB02E4516F2257CF9F575311 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +390,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61AC7CD1F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.xib in Resources */,
+				D66B5B011F68D7700084C85E /* FilterTableViewCell.xib in Resources */,
 				D677F75B1F521B4B005AE6B0 /* LaunchScreen.storyboard in Resources */,
+				D66B5B061F68D8270084C85E /* PriceTableViewCell.xib in Resources */,
+				D60215881F56633A0008DEB1 /* YelpTableViewCell.xib in Resources */,
+				D61AC7D21F5FA11E009A2D35 /* MapTableViewCell.xib in Resources */,
 				D677F7581F521B4B005AE6B0 /* Assets.xcassets in Resources */,
-				D677F7561F521B4B005AE6B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +416,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86DBB95ABDB4BF1E75474380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SummerYelpMock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A01781868FE168DE535D31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SummerYelpMock/Pods-SummerYelpMock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB02E4516F2257CF9F575311 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SummerYelpMock/Pods-SummerYelpMock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D677F7441F521B4B005AE6B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D677F7531F521B4B005AE6B0 /* ViewController.m in Sources */,
+				D61AC7CC1F5F8F97009A2D35 /* DetailViewHeaderTableViewCell.m in Sources */,
+				D677F7531F521B4B005AE6B0 /* YelpViewController.m in Sources */,
+				D677F7811F521BC4005AE6B0 /* YelpNetworking.m in Sources */,
+				D66B5AFC1F68D69B0084C85E /* FilterViewController.m in Sources */,
+				D698A42C1F5B57BD00ED3524 /* YelpDataStore.m in Sources */,
+				D61AC7C81F5F8F38009A2D35 /* DetailYelpViewController.m in Sources */,
+				D698A4301F5B59E600ED3524 /* MapViewController.m in Sources */,
+				D61AC7D11F5FA11E009A2D35 /* MapTableViewCell.m in Sources */,
 				D677F7501F521B4B005AE6B0 /* AppDelegate.m in Sources */,
+				D60215871F56633A0008DEB1 /* YelpTableViewCell.m in Sources */,
 				D677F74D1F521B4B005AE6B0 /* main.m in Sources */,
+				D66B5B091F68D91F0084C85E /* YelpFilterDataModel.m in Sources */,
+				D66B5B051F68D8270084C85E /* PriceTableViewCell.m in Sources */,
+				D66B5B001F68D7700084C85E /* FilterTableViewCell.m in Sources */,
+				D698A4341F5B5F9900ED3524 /* YelpAnnotation.m in Sources */,
+				D677F7881F5230DD005AE6B0 /* YelpDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +523,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D677F7541F521B4B005AE6B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D677F7551F521B4B005AE6B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D677F7591F521B4B005AE6B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,6 +628,7 @@
 		};
 		D677F7761F521B4B005AE6B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7246240DA0FA99BACA63CDDC /* Pods-SummerYelpMock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SummerYelpMock/Info.plist;
@@ -435,6 +640,7 @@
 		};
 		D677F7771F521B4B005AE6B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4A19AE5D84E3174DACAB82 /* Pods-SummerYelpMock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SummerYelpMock/Info.plist;
@@ -509,6 +715,7 @@
 				D677F7771F521B4B005AE6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D677F7781F521B4B005AE6B0 /* Build configuration list for PBXNativeTarget "SummerYelpMockTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +724,7 @@
 				D677F77A1F521B4B005AE6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D677F77B1F521B4B005AE6B0 /* Build configuration list for PBXNativeTarget "SummerYelpMockUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +733,7 @@
 				D677F77D1F521B4B005AE6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
